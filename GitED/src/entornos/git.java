@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		marcotexto martxt=new marcotexto();
 		martxt.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-}
+}       // Vamos a probar a modificar nuestro .java a ver si lo modifica en el GitHub
 
 class marcotexto extends JFrame{
 	public marcotexto(){
