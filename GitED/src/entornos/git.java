@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		marcotexto martxt=new marcotexto();
 		martxt.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-}       // Vamos a probar a modificar nuestro .java a ver si lo modifica en el GitHub
+}       // Vamos a probar a modificar nuestro .java desde el GitHub a ver que es lo que sucede
 
 class marcotexto extends JFrame{
 	public marcotexto(){
@@ -22,7 +22,7 @@ class marcotexto extends JFrame{
 		setTitle("Marco con texto");
 		
 		Lamina laminaMarco=new Lamina();// cramos una lamina para nuestro marco, porque sino no podremos poner nada en el
-		add(laminaMarco); //añadimos la lamina al marco
+		add(laminaMarco); //aÃ±adimos la lamina al marco
 		laminaMarco.setBackground(Color.blue); //establece un color de fondo al marco
 	}
 }
